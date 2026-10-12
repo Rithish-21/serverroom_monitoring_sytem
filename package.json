@@ -1,0 +1,11 @@
+{
+  "name": "server-room-environment-monitoring",
+  "version": "1.0.0",
+  "description": "Server Room Environment Monitoring - Enterprise Full-Stack Application",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "simulator": "npm --prefix backend run simulator",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
